@@ -1,63 +1,201 @@
+# Appwale – Business Website
+
+A modern, high-performance business website built with **Next.js 16**, **React 19**, **TypeScript**, and **Tailwind CSS v4**.
+
+This website serves as the official online presence for **Appwale Software Solutions**, showcasing services, featured projects, company information, and an integrated WhatsApp enquiry system.
 
 ---
 
-# MONO – Creative Agency Portfolio Template (Next.js + Tailwind CSS)
+## 🚀 Tech Stack
 
-**MONO** is a stylish and modern portfolio template built with **Next.js** and **Tailwind CSS**. Ideal for creative agencies, freelancers, and designers who want a bold, professional online presence.
+* Next.js 16.2.12
+* React 19
+* TypeScript
+* Tailwind CSS v4
+* Framer Motion
+* Lucide React
+* Next Image Optimization
+* App Router
 
-🔗 **Live Demo & Details:** [aniq-ui.com MONO Template](https://www.aniq-ui.com/en/templates/creative-agency-portfolio-nextjs-template)
+---
 
-## 🚀 Getting Started
+## ✨ Features
 
-To get started locally:
+* Modern responsive design
+* Mobile-first layout
+* High-performance architecture
+* SEO-friendly structure
+* Optimized images
+* Smooth animations using Framer Motion
+* Featured projects showcase
+* Services section
+* About section
+* Contact section
+* Direct WhatsApp enquiry integration
+* Accessible UI components
+* Production-ready codebase
 
-1. **Install dependencies**
+---
 
-   ```sh
-   yarn install
-   ```
+## 📂 Project Structure
 
-2. **Start the development server**
+```text
+appwale/
+│
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   ├── globals.css
+│   └── favicon.ico
+│
+├── components/
+│   ├── Hero.tsx
+│   ├── Navbar.tsx
+│   ├── About.tsx
+│   ├── Services.tsx
+│   ├── Work.tsx
+│   ├── Contact.tsx
+│   └── Footer.tsx
+│
+├── public/
+│   ├── logo/
+│   ├── works/
+│   └── images/
+│
+├── next.config.ts
+├── package.json
+├── tsconfig.json
+└── README.md
+```
 
-   ```sh
-   yarn dev
-   ```
+---
 
-   Open [http://localhost:3000](http://localhost:3000) in your browser.
+## 📦 Installation
 
-3. **Build for production**
+Clone the repository:
 
-   ```sh
-   yarn build
-   yarn start
-   ```
+```bash
+git clone https://github.com/<your-username>/appwale.git
+```
 
-## 🧠 Project Structure
+Move into the project directory:
+
+```bash
+cd appwale
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+---
+
+## 🛠 Development
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Visit:
 
 ```
-├── public/          # Static assets (images, fonts, etc.)
-├── src/             # Source code
-│   ├── components/  # Reusable UI components
-│   ├── pages/       # Next.js pages
-│   ├── styles/      # Tailwind & custom styles
-│   └── lib/         # Utilities and helpers
-└── .next/           # Build output (auto-generated)
+http://localhost:3000
 ```
 
-## 🌟 Features
+---
 
-* ✨ Built with Next.js and Tailwind CSS
-* 🎭 Bold, minimal design
-* 🖼️ Optimized for showcasing portfolios
-* 📱 Fully responsive and mobile-ready
-* 🔄 Easy to customize and scale
+## 📦 Production
 
-## 💬 Support
+Build the application:
 
-For questions or support, contact the [Aniq UI team](https://www.aniq-ui.com/#contact).
+```bash
+npm run build
+```
+
+Run the production server:
+
+```bash
+npm run start
+```
 
 ---
 
-Created by [Aniq UI](https://www.aniq-ui.com) — Premium Next.js Templates for modern web apps.
+## 🔧 Available Scripts
+
+| Command         | Description              |
+| --------------- | ------------------------ |
+| `npm run dev`   | Start development server |
+| `npm run build` | Create production build  |
+| `npm run start` | Start production server  |
+| `npm run lint`  | Run ESLint               |
 
 ---
+
+## 🎨 Design Philosophy
+
+This project follows a clean, minimal, and modern design language focused on:
+
+* Performance
+* Readability
+* Accessibility
+* Responsive layouts
+* Smooth user experience
+* Professional business presentation
+
+---
+
+## 📱 Responsive
+
+The website is fully responsive and optimized for:
+
+* Mobile devices
+* Tablets
+* Laptops
+* Desktop monitors
+
+---
+
+## ⚡ Performance
+
+The project leverages modern Next.js features including:
+
+* App Router
+* Automatic code splitting
+* Optimized image loading
+* Static rendering where applicable
+* Turbopack during development
+* Production build optimization
+
+---
+
+## 📞 Contact
+
+**Appwale Software Solutions**
+
+📧 Email: [appwale.in@gmail.com](mailto:appwale.in@gmail.com)
+
+📱 Phone: +91 8319 313746
+
+📍 Address:
+
+```
+C-26 Sanskar City
+Katangi Road
+Surtalai
+Jabalpur, Madhya Pradesh
+India – 482002
+```
+
+---
+
+## 📄 License
+
+This project is proprietary and owned by **Appwale Software Solutions**.
+
+Unauthorized copying, modification, distribution, or commercial use of this source code is prohibited without prior written permission.
+
+© Appwale Software Solutions. All Rights Reserved.
