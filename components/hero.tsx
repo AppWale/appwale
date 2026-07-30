@@ -153,7 +153,7 @@ export default function Hero() {
               >
                 {/* Background gradient */}
                 <motion.div
-                  className="absolute inset-0 bg-gradient-to-br from-neutral-700 to-neutral-900"
+                  className="absolute inset-0 bg-linear-to-br from-neutral-700 to-neutral-900"
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ duration: 1, delay: shapeAnimationDelay + 0.2 }}
