@@ -87,7 +87,7 @@ export default function Services() {
     <section
       id="services"
       ref={sectionRef}
-      className="py-4 mt-20 sm:mt-0 sm:py-24 relative overflow-hidden bg-gradient-to-b from-black to-neutral-900"
+      className="py-4 mt-20 sm:mt-0 sm:py-24 relative overflow-hidden bg-linear-to-b from-black to-neutral-900"
     >
       <div className="container mx-auto px-4 md:px-8 relative z-10">
         <motion.div

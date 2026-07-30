@@ -186,7 +186,7 @@ export default function FloatingCursor() {
       {/* Inner dot */}
       <div
         ref={dotRef}
-        className="cursor-dot fixed pointer-events-none z-[9999]"
+        className="cursor-dot fixed pointer-events-none z-9999"
         style={{
           width: "10px",
           height: "10px",
@@ -203,7 +203,7 @@ export default function FloatingCursor() {
       {/* Outer circle */}
       <div
         ref={circleRef}
-        className="cursor-circle fixed pointer-events-none z-[9998]"
+        className="cursor-circle fixed pointer-events-none z-9998"
         style={{
           top: 0,
           left: 0,

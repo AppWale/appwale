@@ -32,9 +32,9 @@ export default function Hero() {
   const shapeAnimationDelay = 0.6;
 
   return (
-    <section className="relative flex items-center px-10 py-[100px] sm:py-[110px] overflow-hidden">
+    <section className="relative flex items-center px-10 py-25 sm:py-27.5 overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_#222_0%,_#000_100%)]"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,#222_0%,#000_100%)]"></div>
       </div>
 
       <div className="container mx-auto px-4 md:px-8 relative z-10">
@@ -53,7 +53,7 @@ export default function Hero() {
             <h1>
               <TextGenerateEffect
                 words="WEBSITE"
-                className="text-5xl md:text-7xl lg:text-8xl font-bold m-0 leading-tight tracking-tighter"
+                className="text-5xl md:text-7xl lg:text-8xl font-bold m-0 leading-tight tracking-tighter text-white"
                 duration={0.5}
                 speed={0.2}
                 initialDelay={0.2}
@@ -67,7 +67,7 @@ export default function Hero() {
               />
               <TextGenerateEffect
                 words="DESIGN"
-                className="text-5xl md:text-7xl lg:text-8xl font-bold m-2 leading-tight tracking-tighter"
+                className="text-5xl md:text-7xl lg:text-8xl font-bold m-2 leading-tight tracking-tighter text-white"
                 duration={0.5}
                 speed={0.2}
                 initialDelay={0.6}

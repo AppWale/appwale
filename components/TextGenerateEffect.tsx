@@ -47,7 +47,7 @@ export const TextGenerateEffect = memo(function TextGenerateEffect({
         {wordsArray.map((word, idx) => (
           <motion.span
             key={word + idx}
-            className="dark:text-[var(--white)] text-black opacity-0"
+            className="dark:text-(--white) text-black opacity-0"
             style={{
               filter: filter ? "blur(10px)" : "none",
               WebkitTextSizeAdjust: "100%",
@@ -65,7 +65,7 @@ export const TextGenerateEffect = memo(function TextGenerateEffect({
     <div className={cn("font-bold", className)}>
       <div className="mt-4">
         <div
-          className="dark:text-[var(--white)] text-black"
+          className="dark:text-(--white) text-black"
           style={{
             WebkitTextSizeAdjust: "100%",
             fontSize: "inherit",
