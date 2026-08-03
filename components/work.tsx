@@ -31,11 +31,11 @@ export default function Work() {
       url: "https://soni-anime.vercel.app/",
     },
     {
-      title: "Authentication System",
-      subtitle: "Authentication App",
+      title: "HooBank",
+      subtitle: "Finance Website Template",
       image: "/works/4.webp",
-      year: "2025",
-      url: "https://myauth.vercel.app/",
+      year: "2026",
+      url: "https://appwale.github.io/hoobank/",
     },
   ];
 
