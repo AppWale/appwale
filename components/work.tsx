@@ -31,9 +31,16 @@ export default function Work() {
       url: "https://soni-anime.vercel.app/",
     },
     {
+      title: "Chef's Kitchen",
+      subtitle: "Restaurant Website Template",
+      image: "/works/4.webp",
+      year: "2026",
+      url: "https://appwale.github.io/chefs-kitchen/",
+    },
+    {
       title: "HooBank",
       subtitle: "Finance Website Template",
-      image: "/works/4.webp",
+      image: "/works/5.webp",
       year: "2026",
       url: "https://appwale.github.io/hoobank/",
     },
