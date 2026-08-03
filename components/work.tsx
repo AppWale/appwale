@@ -44,6 +44,13 @@ export default function Work() {
       year: "2026",
       url: "https://appwale.github.io/hoobank/",
     },
+    {
+      title: "Juicy",
+      subtitle: "3D Juice Product Showcase",
+      image: "/works/6.webp",
+      year: "2026",
+      url: "https://appwale.github.io/juicy/",
+    },
   ];
 
   return (
